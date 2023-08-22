@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+Run
+
+```bash
+npm install
+```
+
+You also **need** to fill the required vars within the `.env` file.
+
+```bash
+cp .env.example .env
+```
+
+## Some notes
+
+Some Eslint rules are enforced bia `husky` on every commit. This will ensure homogenity when collaborating on the repo and will help implement some basic good practices. In case you don't want it to interfiere with your local work flow, you can bypass it using
+
+```bash
+git commit -n -m "message"
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
