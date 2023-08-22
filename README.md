@@ -18,7 +18,7 @@ cp .env.example .env
 
 ## Some notes
 
-Some Eslint rules are enforced bia `husky` on every commit. This will ensure homogenity when collaborating on the repo and will help implement some basic good practices. In case you don't want it to interfiere with your local work flow, you can bypass it using
+Some Eslint rules are enforced via `husky` on every commit. This will ensure homogeneity when collaborating on the repo and will help implement some basic good practices. In case you don't want it to interfere with your local work flow, you can bypass it using
 
 ```bash
 git commit -n -m "message"
